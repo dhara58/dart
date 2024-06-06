@@ -1,7 +1,8 @@
 import 'dart:io';
 void main()
 {
-    int a=10,b=20;
+    int a=10;
+    int b=20;
     String name="hello";
     bool isflase=false;
     double number=4.5;
@@ -11,8 +12,12 @@ void main()
     print(name);
     print(isflase);
     print(number);
-    int? a=int.parse(stdin.readLineSync()!).'iostring';
-    print(a);
-    int? b=int.parse(stdin.readLineSync()!).'iostring';
-    print(b);
+    //a=int.parse(stdin.readLineSync()!);
+    //int? a1=int.parse(stdin.readLineSync()!);
+    //print(a1);
+    name=(stdin.readLineSync()!);
+    print(name);
+    //b=int.parse(stdin.readLineSync()!);
+    //int? b1=int.parse(stdin.readLineSync()!);
+    //print(b1);
 } 

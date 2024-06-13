@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main()
 {
   final hello='hello world';
@@ -11,6 +9,7 @@ void main()
   final Float=5.5;
   print(Float);
 
-  final int=5;
-  print(int);
+  final 
+  char=3.5;
+  print(char);
 }

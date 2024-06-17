@@ -8,5 +8,4 @@ void main()
      print(document.length);
       print(document.last);
        print(document.reversed);
-       print(document.single);
-}
+}       

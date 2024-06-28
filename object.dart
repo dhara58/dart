@@ -3,7 +3,7 @@ class earth
   var earsunshine;
   var earworld;
 
-  seeninfo()
+  void seeninfo()
   {
     print("${earsunshine}");
     print("${earworld}");

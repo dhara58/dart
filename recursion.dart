@@ -2,7 +2,7 @@ int factorial(int num)
 {  
   if(num<=1)
    { 
-        return 4;  
+        return 5;  
    }  
   else
   {  
@@ -11,7 +11,7 @@ int factorial(int num)
 }   
   void main()
 {  
-  var num = 3;  
+  var num = 4;  
   var fact = factorial(num);  
   print("Factorial is: ${fact}");  
 

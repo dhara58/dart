@@ -1,12 +1,12 @@
     void main() 
 { 
-	int count = 1; 
+	int count = 0; 
 
 	while (count <= 15) { 
 				count++; 
 
-		if (count == 5) { 
-      print("5 number are skip");
+		if (count == 8) { 
+      print("8 number are skip");
 			continue; 
 		} 
     print("hello, you are inside loop $count"); 

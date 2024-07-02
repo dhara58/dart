@@ -1,11 +1,11 @@
 
 class Employee
 {
-  static String? empCompany;
+  static String?empCompany;
   String? empName;
   int? salary;
   
-
+  
   seeninfo()
   {
     print("employee's name is:${empName}");
